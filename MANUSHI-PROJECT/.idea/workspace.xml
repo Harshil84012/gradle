@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0cf8694-c1c8-4ae1-95db-c914843eec66" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/sample-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/sample-common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/sample-admin">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/repository-module">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+                <item name="sample-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+                <item name="sample-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample-multi-module" type="f1a62948:ProjectNode" />
+                <item name="sample-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2Rp0BkGkaIuzh8IdTnt3uue83N9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "/home/dev1024/workspace/multi-module-gradle-project/MANUSHI-PROJECT/sample-api/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.17050691",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "364f52efb61e5474a1cc48c35185e005",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample-api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/entity-module/src/main/java/com/sungjun" />
+      <recent name="$PROJECT_DIR$/entity-module/src/main/java/com/sungjun/entity" />
+      <recent name="$PROJECT_DIR$/repository-module/src/main/java/com/sungjun/repository" />
+      <recent name="$PROJECT_DIR$/securiy/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sungjun.api.config" />
+      <recent name="com.sungjun.service" />
+      <recent name="com.sungjun.controller" />
+      <recent name="com.sungjun.configuration" />
+      <recent name="com.sungjun.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SampleApiApplication">
+    <configuration name="gradle-multi-module-master [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradle-multi-module-master [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gradle-multi-module-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gradle-multi-module-master" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sample-multi-module.aop-module.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.AopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sungjun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interceptor" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sample-multi-module.aop-module.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.Interceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sungjun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sample-multi-module.repository-module.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sample-multi-module.entity-module.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sample-multi-module.sample-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.api.SampleApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sample-multi-module.sleuth-module.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sungjun.SleuthAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sungjun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.gradle-multi-module-master [clean]" />
+      <item itemvalue="Gradle.gradle-multi-module-master [build]" />
+      <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="Spring Boot.Main (1)" />
+      <item itemvalue="Spring Boot.SampleApiApplication" />
+      <item itemvalue="Spring Boot.AopApplication" />
+      <item itemvalue="Spring Boot.Interceptor" />
+      <item itemvalue="Spring Boot.SleuthAppApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AopApplication" />
+        <item itemvalue="Gradle.gradle-multi-module-master [build]" />
+        <item itemvalue="Gradle.gradle-multi-module-master [clean]" />
+        <item itemvalue="Spring Boot.Interceptor" />
+        <item itemvalue="Spring Boot.SleuthAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0cf8694-c1c8-4ae1-95db-c914843eec66" name="Changes" comment="" />
+      <created>1687931582841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687931582841</updated>
+      <workItem from="1687931585138" duration="2042000" />
+      <workItem from="1687933678381" duration="7979000" />
+      <workItem from="1687945535188" duration="14306000" />
+      <workItem from="1688014094083" duration="8519000" />
+      <workItem from="1688024176447" duration="15886000" />
+      <workItem from="1688044312468" duration="66000" />
+      <workItem from="1688044981095" duration="1817000" />
+      <workItem from="1688106825078" duration="6433000" />
+      <workItem from="1688118417224" duration="3778000" />
+      <workItem from="1688124753556" duration="528000" />
+      <workItem from="1688126204257" duration="16693000" />
+      <workItem from="1688379448898" duration="5678000" />
+      <workItem from="1688385194406" duration="726000" />
+      <workItem from="1688386026020" duration="5507000" />
+      <workItem from="1688446111854" duration="6114000" />
+      <workItem from="1688979535449" duration="11740000" />
+      <workItem from="1689052208563" duration="12531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

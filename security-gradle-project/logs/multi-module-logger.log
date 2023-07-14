@@ -1,0 +1,327 @@
+[2m2023-07-14 11:04:08.103[0;39m [32m INFO [,,,][0;39m [35m20501[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 11:04:08.106[0;39m [32m INFO [,,,][0;39m [35m20501[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2023-07-14 11:04:08.114[0;39m [32m INFO [,,,][0;39m [35m20501[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2023-07-14 11:04:28.795[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Fetching config from server at : http://localhost:8888
+[2m2023-07-14 11:04:28.940[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+[2m2023-07-14 11:04:28.940[0;39m [33m WARN [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/SAMPLE-API/default": Connection refused; nested exception is java.net.ConnectException: Connection refused
+[2m2023-07-14 11:04:28.943[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2023-07-14 11:04:29.691[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2023-07-14 11:04:29.786[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 81 ms. Found 5 JPA repository interfaces.
+[2m2023-07-14 11:04:30.463[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=62dd63f4-abb6-3bf7-a4db-e84196403a84
+[2m2023-07-14 11:04:31.509[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8086 (http)
+[2m2023-07-14 11:04:31.523[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-07-14 11:04:31.524[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2m2023-07-14 11:04:31.658[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-07-14 11:04:31.659[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2685 ms
+[2m2023-07-14 11:04:32.477[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2023-07-14 11:04:32.539[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.6.15.Final
+[2m2023-07-14 11:04:32.747[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2023-07-14 11:04:32.880[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2023-07-14 11:04:33.252[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2023-07-14 11:04:33.271[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2m2023-07-14 11:04:34.341[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2023-07-14 11:04:34.353[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 11:04:36.093[0;39m [33m WARN [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: ef31049d-c618-4d85-a696-b3175372bfd9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2023-07-14 11:04:36.365[0;39m [33m WARN [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2023-07-14 11:04:36.991[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76fa3dd8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58f27c37, org.springframework.security.web.context.SecurityContextPersistenceFilter@63893cf6, org.springframework.security.web.header.HeaderWriterFilter@138a51d5, org.springframework.web.filter.CorsFilter@78ae34f7, org.springframework.security.web.authentication.logout.LogoutFilter@23acd55e, com.sungjun.jwt.JwtTokenFilter@3eb4fdd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@159e9629, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68823b6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19070326, org.springframework.security.web.session.SessionManagementFilter@1027cdcd, org.springframework.security.web.access.ExceptionTranslationFilter@29f72685, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dbe592f]
+[2m2023-07-14 11:04:38.130[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8086 (http) with context path ''
+[2m2023-07-14 11:04:38.153[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m Started SampleApiApplication in 10.994 seconds (JVM running for 13.014)
+[2m2023-07-14 11:11:13.803[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2023-07-14 11:11:13.803[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-07-14 11:11:13.805[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2023-07-14 11:11:13.884[0;39m [31mERROR [,f72e8cc77cbc54f7,f72e8cc77cbc54f7,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.jwt.JwtTokenFilter          [0;39m [2m:[0;39m Token expired :::
+[2m2023-07-14 11:11:13.894[0;39m [31mERROR [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.RuntimeException: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10886 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:87)
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:139)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10886 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at com.sungjun.jwt.JwtTokenProvider.getSystemRole(JwtTokenProvider.java:82)
+	at com.sungjun.jwt.JwtTokenProvider.getAuthentication(JwtTokenProvider.java:68)
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:49)
+	... 58 common frames omitted
+
+[2m2023-07-14 11:11:13.898[0;39m [31mERROR [,f72e8cc77cbc54f7,f72e8cc77cbc54f7,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.jwt.JwtTokenFilter          [0;39m [2m:[0;39m Token expired :::
+[2m2023-07-14 11:11:13.900[0;39m [31mERROR [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.lang.RuntimeException: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10899 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:68)
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:139)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:373)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:319)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10899 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at com.sungjun.jwt.JwtTokenProvider.getSystemRole(JwtTokenProvider.java:82)
+	at com.sungjun.jwt.JwtTokenProvider.getAuthentication(JwtTokenProvider.java:68)
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:49)
+	... 55 common frames omitted
+
+[2m2023-07-14 11:11:13.901[0;39m [31mERROR [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost]          [0;39m [2m:[0;39m Exception Processing ErrorPage[errorCode=0, location=/error]
+
+java.lang.RuntimeException: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10899 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:68)
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:139)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:373)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:319)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-14T05:41:03Z. Current time: 2023-07-14T05:41:13Z, a difference of 10899 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at com.sungjun.jwt.JwtTokenProvider.getSystemRole(JwtTokenProvider.java:82)
+	at com.sungjun.jwt.JwtTokenProvider.getAuthentication(JwtTokenProvider.java:68)
+	at com.sungjun.jwt.JwtTokenFilter.doFilter(JwtTokenFilter.java:49)
+	... 55 common frames omitted
+
+[2m2023-07-14 11:11:27.637[0;39m [32m INFO [,e70d94ca50e195fb,e70d94ca50e195fb,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-3][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m  joinPoint.getSignature::::::: ResponseEntity com.sungjun.api.controller.PrivilegesController.createPrivilege(PrivilegesRequestDto)
+[2m2023-07-14 11:11:27.995[0;39m [32m INFO [,e70d94ca50e195fb,e70d94ca50e195fb,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-3][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m :::::::::Audit Log::::::::::{sessionId='Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXNoYW5AMTIzIiwidXNlcklkIjoxMCwicm9sZSI6IlJPTEVfRE9DVE9SIiwiaWF0IjoxNjg5MzEzMjU4LCJleHAiOjE2ODkzMTUwNTh9.CjL77eCbcKw7gHIh1ZzY0rgt4zGJCpyS83aA1wnWJTc', traceId='e70d94ca50e195fb', spanId='e70d94ca50e195fb', request=[{"privilegeName":"tyktyk"}], response={"headers":{},"body":{"message":"Privilege created successfully","data":{"privilegeName":"tyktyk"},"status":"200"},"statusCode":"OK","statusCodeValue":"200"}, apiName='createPrivilege'}
+[2m2023-07-14 11:11:58.829[0;39m [32m INFO [,6157c8189a05991c,6157c8189a05991c,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-5][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m  joinPoint.getSignature::::::: ResponseEntity com.sungjun.api.controller.PrivilegesController.createPrivilege(PrivilegesRequestDto)
+[2m2023-07-14 11:11:58.871[0;39m [32m INFO [,6157c8189a05991c,6157c8189a05991c,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-5][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m :::::::::Audit Log::::::::::{sessionId='Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXNoYW5AMTIzIiwidXNlcklkIjoxMCwicm9sZSI6IlJPTEVfRE9DVE9SIiwiaWF0IjoxNjg5MzEzMjU4LCJleHAiOjE2ODkzMTUwNTh9.CjL77eCbcKw7gHIh1ZzY0rgt4zGJCpyS83aA1wnWJTc', traceId='6157c8189a05991c', spanId='6157c8189a05991c', request=[{"privilegeName":"zxc"}], response={"headers":{},"body":{"message":"Privilege created successfully","data":{"privilegeName":"zxc"},"status":"200"},"statusCode":"OK","statusCodeValue":"200"}, apiName='createPrivilege'}
+[2m2023-07-14 11:12:33.948[0;39m [32m INFO [,6df5060d08ce5610,6df5060d08ce5610,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-7][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m  joinPoint.getSignature::::::: ResponseEntity com.sungjun.api.controller.PrivilegesController.createPrivilege(PrivilegesRequestDto)
+[2m2023-07-14 11:12:33.975[0;39m [32m INFO [,6df5060d08ce5610,6df5060d08ce5610,true][0;39m [35m16565[0;39m [2m---[0;39m [2m[nio-8086-exec-7][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m :::::::::Audit Log::::::::::{sessionId='Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXNoYW5AMTIzIiwidXNlcklkIjoxMCwicm9sZSI6IlJPTEVfRE9DVE9SIiwiaWF0IjoxNjg5MzEzMzM5LCJleHAiOjE2ODkzMTUxMzl9.iz5pU63NeF3i4ccQH1hk9_hFzcDo5w3D-8hbb_rwBTc', traceId='6df5060d08ce5610', spanId='6df5060d08ce5610', request=[{"privilegeName":"azx"}], response={"headers":{},"body":{"message":"Privilege created successfully","data":{"privilegeName":"azx"},"status":"200"},"statusCode":"OK","statusCodeValue":"200"}, apiName='createPrivilege'}
+[2m2023-07-14 11:49:42.278[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 11:49:42.280[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2023-07-14 11:49:42.285[0;39m [32m INFO [,,,][0;39m [35m16565[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2023-07-14 11:49:57.256[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Fetching config from server at : http://localhost:8888
+[2m2023-07-14 11:49:57.457[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+[2m2023-07-14 11:49:57.458[0;39m [33m WARN [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/SAMPLE-API/default": Connection refused; nested exception is java.net.ConnectException: Connection refused
+[2m2023-07-14 11:49:57.460[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2023-07-14 11:49:58.270[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2023-07-14 11:49:58.404[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 117 ms. Found 5 JPA repository interfaces.
+[2m2023-07-14 11:49:59.269[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=62dd63f4-abb6-3bf7-a4db-e84196403a84
+[2m2023-07-14 11:50:00.906[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8086 (http)
+[2m2023-07-14 11:50:00.924[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-07-14 11:50:00.925[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2m2023-07-14 11:50:01.121[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-07-14 11:50:01.122[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3577 ms
+[2m2023-07-14 11:50:02.172[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2023-07-14 11:50:02.293[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.6.15.Final
+[2m2023-07-14 11:50:02.553[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2023-07-14 11:50:02.685[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2023-07-14 11:50:03.089[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2023-07-14 11:50:03.108[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2m2023-07-14 11:50:04.286[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2023-07-14 11:50:04.299[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 11:50:06.203[0;39m [33m WARN [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 8a8a9dfc-f21c-4d11-aaf2-89d4b70d3d78
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2023-07-14 11:50:06.424[0;39m [33m WARN [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2023-07-14 11:50:07.064[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d8de4bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@405d123c, org.springframework.security.web.context.SecurityContextPersistenceFilter@70c6c6a7, org.springframework.security.web.header.HeaderWriterFilter@183e8c8a, org.springframework.web.filter.CorsFilter@298f7b0a, org.springframework.security.web.authentication.logout.LogoutFilter@44872224, com.sungjun.jwt.JwtTokenFilter@7e3c5ef1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65e4eba5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ccd3cf1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ca6f587, org.springframework.security.web.session.SessionManagementFilter@4c3125ff, org.springframework.security.web.access.ExceptionTranslationFilter@7a14d8a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37a74cf4]
+[2m2023-07-14 11:50:08.260[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8086 (http) with context path ''
+[2m2023-07-14 11:50:08.283[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m Started SampleApiApplication in 13.405 seconds (JVM running for 15.872)
+[2m2023-07-14 11:52:02.713[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2023-07-14 11:52:02.713[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-07-14 11:52:02.715[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2023-07-14 11:52:02.840[0;39m [32m INFO [,e7ad0ec2c1502d0e,e7ad0ec2c1502d0e,true][0;39m [35m18642[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m  joinPoint.getSignature::::::: ResponseEntity com.sungjun.api.controller.PrivilegesController.createPrivilege(PrivilegesRequestDto)
+[2m2023-07-14 11:52:03.091[0;39m [32m INFO [,e7ad0ec2c1502d0e,e7ad0ec2c1502d0e,true][0;39m [35m18642[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m :::::::::Audit Log::::::::::{sessionId='Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXNoYW5AMTIzIiwidXNlcklkIjoxMCwicm9sZSI6IlJPTEVfRE9DVE9SIiwiaWF0IjoxNjg5MzE1NjQ2LCJleHAiOjE2ODkzMTc0NDZ9.wsUH1vUxwjAfVnzwGu7lXpx3EQ5loTlpL0TONAdFL_I', traceId='e7ad0ec2c1502d0e', spanId='e7ad0ec2c1502d0e', request=[{"privilegeName":"abc"}], response={"headers":{},"body":{"message":"Privilege created successfully","data":{"privilegeName":"abc"},"status":"200"},"statusCode":"OK","statusCodeValue":"200"}, apiName='createPrivilege'}
+[2m2023-07-14 12:30:25.111[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 12:30:25.113[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2023-07-14 12:30:25.119[0;39m [32m INFO [,,,][0;39m [35m18642[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2023-07-14 12:30:40.887[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Fetching config from server at : http://localhost:8888
+[2m2023-07-14 12:30:41.031[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+[2m2023-07-14 12:30:41.031[0;39m [33m WARN [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.c.c.ConfigServicePropertySourceLocator[0;39m [2m:[0;39m Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/SAMPLE-API/default": Connection refused; nested exception is java.net.ConnectException: Connection refused
+[2m2023-07-14 12:30:41.034[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2023-07-14 12:30:41.847[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2023-07-14 12:30:41.958[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 100 ms. Found 5 JPA repository interfaces.
+[2m2023-07-14 12:30:42.672[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=62dd63f4-abb6-3bf7-a4db-e84196403a84
+[2m2023-07-14 12:30:43.675[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8086 (http)
+[2m2023-07-14 12:30:43.685[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-07-14 12:30:43.685[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2m2023-07-14 12:30:43.818[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-07-14 12:30:43.819[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2743 ms
+[2m2023-07-14 12:30:44.585[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2023-07-14 12:30:44.650[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.6.15.Final
+[2m2023-07-14 12:30:44.860[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2023-07-14 12:30:44.990[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2023-07-14 12:30:45.383[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2023-07-14 12:30:45.403[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2m2023-07-14 12:30:46.522[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2023-07-14 12:30:46.534[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-07-14 12:30:48.219[0;39m [33m WARN [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 597c3a5f-bd32-4a56-9baa-baec3e845dcd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2023-07-14 12:30:48.450[0;39m [33m WARN [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2023-07-14 12:30:49.033[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19070326, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52dfd7f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f45a2fd, org.springframework.security.web.header.HeaderWriterFilter@7a925ac4, org.springframework.web.filter.CorsFilter@5b5f48d5, org.springframework.security.web.authentication.logout.LogoutFilter@d319d2c, com.sungjun.jwt.JwtTokenFilter@421c4c3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2926144f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20673498, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63236968, org.springframework.security.web.session.SessionManagementFilter@31e3b882, org.springframework.security.web.access.ExceptionTranslationFilter@5702e6f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a174e4b]
+[2m2023-07-14 12:30:50.240[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8086 (http) with context path ''
+[2m2023-07-14 12:30:50.298[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.sungjun.api.SampleApiApplication    [0;39m [2m:[0;39m Started SampleApiApplication in 13.046 seconds (JVM running for 14.916)
+[2m2023-07-14 12:31:16.560[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2023-07-14 12:31:16.561[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-07-14 12:31:16.563[0;39m [32m INFO [,,,][0;39m [35m21914[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2023-07-14 12:31:16.698[0;39m [32m INFO [,bafe828e73320384,bafe828e73320384,true][0;39m [35m21914[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m  joinPoint.getSignature::::::: ResponseEntity com.sungjun.api.controller.PrivilegesController.createPrivilege(PrivilegesRequestDto)
+[2m2023-07-14 12:31:16.961[0;39m [32m INFO [,bafe828e73320384,bafe828e73320384,true][0;39m [35m21914[0;39m [2m---[0;39m [2m[nio-8086-exec-1][0;39m [36mcom.sungjun.api.config.MyAspect         [0;39m [2m:[0;39m :::::::::Audit Log::::::::::{sessionId='Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJocEA4NDAxMiIsInVzZXJJZCI6MSwicm9sZSI6IlJPTEVfU1VQRVIiLCJpYXQiOjE2ODkzMTgwNjEsImV4cCI6MTY4OTMxOTg2MX0.KUNPHSsu2WalsD5s9PYnCoAfRDy4ajS288XSLkKdEi4', traceId='bafe828e73320384', spanId='bafe828e73320384', request=[{"privilegeName":"def"}], response={"headers":{},"body":{"message":"Privilege created successfully","data":{"privilegeName":"def"},"status":"200"},"statusCode":"OK","statusCodeValue":"200"}, apiName='createPrivilege'}

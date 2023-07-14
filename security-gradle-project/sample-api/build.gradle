@@ -1,0 +1,18 @@
+ext {
+    set('springCloudVersion', "2021.0.3")
+}
+dependencies {
+
+    implementation 'mysql:mysql-connector-java:8.0.28'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:2.2.5.RELEASE'
+
+    implementation project(":repository")
+    implementation project(":entity")
+    implementation project(":exception")
+    implementation project (":security")
+}
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}

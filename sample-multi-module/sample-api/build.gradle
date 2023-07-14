@@ -1,0 +1,29 @@
+ext {
+    set('springCloudVersion', "2021.0.3")
+}
+dependencies {
+//    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+//    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+//    implementation 'org.springframework.boot:spring-boot-starter-security'
+//    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+//    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+//    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+//    implementation group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+//    implementation('org.projectlombok:lombok')
+//    implementation 'org.modelmapper:modelmapper:3.1.1'
+//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//    implementation('org.springframework.boot:spring-boot-starter-web')
+//    implementation('com.google.code.gson:gson:2.8.6')
+//    implementation('org.springframework.cloud:spring-cloud-starter-sleuth')
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+
+    implementation project(path: ':repository-module')
+    implementation project(path: ':entity-module')
+    implementation project(path: ':security-module')
+
+}
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
